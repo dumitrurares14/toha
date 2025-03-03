@@ -57,6 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (e.target.tagName === 'A') {
         el.classList.add('collapse')
         el.classList.remove('show');
+        console.log('Navbar link clicked!');
       }
     })
   })
